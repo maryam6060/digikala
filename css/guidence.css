@@ -1,0 +1,169 @@
+
+.guidence{
+    height: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    position: relative;
+   
+    
+   
+  
+}
+.guidence .right{
+    width: 75%;
+    height: 100%;
+    display: flex;
+
+}
+
+.guidence .right  .texts{
+    width: 397px;
+    height: 270px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.guidence .right  .texts p{
+    width: 397px;
+    height: 30px;
+    color: #81858b;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: block;
+    line-height: 2.15;
+
+}
+.guidence .right  .texts p:first-child{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #3f4064;
+}
+
+.guidence .left{
+    width: 25%;
+    height: 270px;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   
+  
+}
+.guidence .left .text1{
+    width: 322px;
+    height: 33px;
+    margin-bottom: 12px;
+    color: #3f4064;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 2.1;
+   
+    
+
+}
+
+.guidence .left .svg{
+    width: 322px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    
+    
+}
+.guidence .left .svg .icon{ 
+    width: 40px;
+    height: 100%;
+    margin-left: 32px;
+    background-color: red;
+    display: flex; 
+    
+   
+  
+}
+
+
+.guidence .left .text2{
+    width: 322px;
+    height: 33px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2.1;
+    display: block;
+    color: #3f4064;
+
+}
+.guidence .left  .form{
+    width: 322px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px dotted #9EEB47;
+  
+   
+
+}
+.guidence .left .form .label{
+    width: 260px;
+    height: 100%;
+    background-color: #f0f0f1;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    cursor: default;
+   
+
+}
+.guidence .left  .form  input{
+    width: 244px;
+    height: 32px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 2.15;
+    caret-color: #ef4056;
+    border: none;
+    background-color: #f0f0f1; 
+    color: #3f4064;
+    
+
+}
+.guidence .left .form .guid{
+    width: 54px;
+    height: 48px;
+    background-color: #e0e0e2;
+    border: 1px solid #e0e0e2;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2.15;
+    border-radius: 8px;align-items: center;
+    margin-right: 8px;
+    box-shadow: none;
+   
+} 

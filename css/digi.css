@@ -1,0 +1,287 @@
+.digi{
+    width: 100%;
+    height: 418px;
+    display: flex;
+    margin-bottom: 16px;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 128px;
+    margin-left: 128px;
+   
+
+
+}
+.digi .first{
+    width: auto;
+    height: 416px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border: 1px solid #e0e0e2;
+    
+    
+    
+}
+.digi  .first  .title{
+    width: 122px;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    flex-wrap:  nowrap;
+   
+    
+}
+.digi .first   p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+}
+.digi .first  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+}
+.digi .first  .img img{
+    width: 129px;
+    height: 129px;
+    border-left: 1px dotted #e0e0e2;
+    border-bottom: 1px dotted #e0e0e2;
+
+  
+}
+.digi .first span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.digi .first span svg{
+    width: 18px;
+    height: 18px;
+    color: #007aff ;
+    align-items: center;
+
+}
+
+
+.digi .second{
+    width: 332px;
+    height: 416px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-left: 1px solid #e0e0e2;
+    border-top: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+}
+.digi  .second  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    flex-wrap:  nowrap;
+   
+    
+}
+.digi .second  p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+}
+
+.digi .second  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+}
+
+.digi .second  .img img{
+    width: 129px;
+    height: 129px;
+    border-left: 1px dotted #e0e0e2;
+    border-bottom: 1px dotted #e0e0e2;
+}
+.digi .second span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.digi .second span svg{
+    color: #007aff;
+    align-items: center;
+
+}
+
+
+.digi  .third{
+    width: 332px;
+    height: 416px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-left: 1px solid #e0e0e2;
+    border-top: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+}
+.digi  .third  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    flex-wrap:  nowrap;
+   
+    
+}
+.digi .third  p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+}
+
+.digi .third  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+}
+.digi .third  .img img{
+    width: 129px;
+    height: 129px;
+    border-left: 1px dotted #e0e0e2;
+    border-bottom: 1px dotted #e0e0e2;
+}
+.digi .third span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.digi .third span svg{
+    color: #007aff;
+    align-items: center;
+
+}
+
+
+.digi  .forth{
+    width: 332px;
+    height: 416px;
+    border-top-left-radius:16px ;
+    border-bottom-left-radius: 16px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-left: 1px solid #e0e0e2;
+    border-top: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+}
+.digi  .forth  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    flex-wrap:  nowrap;
+   
+    
+}
+.digi .forth p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+}
+.digi .forth  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+}
+.digi .forth  .img img{
+    width: 129px;
+    height: 129px;
+    border-left: 1px dotted #e0e0e2;
+    border-bottom: 1px dotted #e0e0e2;
+}
+.digi .forth span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.digi .forth span svg{
+    color: #007aff;
+    align-items: center;
+
+}

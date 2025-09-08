@@ -1,0 +1,135 @@
+.market{
+    margin-right: 128px;
+    margin-left: 128px;
+    height: 110px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    direction: rtl;
+    display: flex;
+
+
+}
+.market .right{
+    background-color: #ECEEEE;
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.market .right .img1{
+    width: 66px;
+    height: 62px;
+    margin-left: 15px;
+
+}
+.market .right .img2{
+    width: 250px;
+    height: 28px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+.market .right p{
+    width: 110px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #029a49;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 9999px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid transparent;
+    font-weight: 800;
+    line-height: 28px;
+    
+    
+}
+.market .left{
+    background-color: #ECEFEE;
+    width: 50%;
+    height: 110px;
+    display: flex;
+    left: 100%;
+    align-items: center; 
+    justify-content: flex-start;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    
+}
+
+  
+
+.market  .left  .img{
+    display: flex;
+
+
+
+}
+.market  .left  .img  img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 16px;
+    padding: 8px;
+    margin-left: 8px;
+
+
+}
+.market  .left  .img  .discount{
+    width: 34px;
+    height: 20px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 16px;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: translatex(1px)translatey(50px);
+ 
+}
+.market .left  .parag{
+    width: auto;
+    height: 50px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 9999px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+    
+    
+ 
+
+  
+}
+.market .left  .parag p{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #029a49;
+ 
+    
+}
+.market .left  .parag  svg{
+    width: 20px;
+    height: 20px;
+    color: #029a49;
+    padding-top: 5px;
+ 
+  
+
+     
+
+}

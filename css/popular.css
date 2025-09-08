@@ -1,0 +1,93 @@
+div.popular{
+    width: 1334px;
+    height: 204px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    
+}
+.popular .title{
+    width: auto;
+    height: 44px;
+    display: block;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #0c0c0c;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+    
+}
+.popular .title  svg{
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.popular .swip{
+    width: 1334px;
+    height: 100px;
+    display: flex;
+   direction: rtl;
+    margin-top: 12px;
+
+}
+.popular  .swip  .swiper {
+    width: 100%;
+    height: 100%;
+
+   
+  }
+
+  .popular  .swip .swiper-slide {
+    width: 100%;
+    height: 100%;
+    padding: 4px 16px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+
+  .popular  .swip .swiper-slide img {
+    display: block;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    
+  }
+  .popular .swip .swiper-button-next::after{
+    color: #8d8d94;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    z-index: 5;
+    border: 1px solid #e0e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .popular .swip .swiper-button-prev::after{
+    color: #8d8d94;
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    z-index: 5;
+    border: 1px solid #e0e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

@@ -1,47 +1,77 @@
 @import url(setting.css);
+@import url(stories.css);
 @import url(slider.css);
 @import url(services.css);
 @import url(amazing.css);
+@import url(images.css);
+@import url(market.css);
+@import url(images1.css);
+@import url(categories.css);
+@import url(images2.css);
+@import url(popular.css);
+@import url(image3.css);
+@import url(digi.css);
+@import url(sellers.css);
+@import url(things.css);
+@import url(outlet.css);
+@import url(hottest.css);
+@import url(reading.css);
+@import url(information.css);
+@import url(informb.css);
+@import url(guidence.css);
+@import url(footer.css);
+@import url(interduce.css);
+@import url(brands.css);
 
-.headertop{
-    width: 100%;
+body{
+  width: 1592px;
+  height: 100wv;
+  
+}
+.thead{
+  height: 128px;
+ 
+}
+.thead .headertop{
     height: 60px;
     display: block;
-    
+    background-color: #ffffff;
+   
+       
 }
-.headertop img{
+.thead .headertop img{
     width: 100%;
     height: 100%;  
 }
- .headerbottom{
-    width: 100%;
+.thead .headerbottom{
     height: 68px;
     display: flex;
     padding: 0 16px;
     background-color:#fafafa;
     align-items: center;
+   position: relative;
    
    
  }
- .headerbottom .right{
+.thead .headerbottom .right{
   display: flex;
   width: 65%;
 
  }
 
- .headerbottom .right .logo{
+.thead .headerbottom .right .logo{
    height: 68px;
    align-items: center;
   
 }
 
-.headerbottom .right .logo svg{
+.thead .headerbottom .right .logo svg{
    height: 100%;
    margin-left: 20px;
    
 }
 
-.headerbottom   .right .search {
+.thead .headerbottom   .right .search {
    width: 600px;
    height: 68px;
    display: flex;
@@ -51,7 +81,7 @@
 
 }
 
-.headerbottom  .right .search  input{
+.thead .headerbottom  .right .search  input{
    width: 100%;
    height: 44px;
    font-family: sans-serif;
@@ -66,7 +96,7 @@
    
   
 }
-.headerbottom  .right .search  svg{
+.thead .headerbottom  .right .search  svg{
    flex-direction: row-reverse;
    background-color: #f0f0f1;
    position: absolute;
@@ -77,19 +107,19 @@
 }
 
 
- .headerbottom .left{
+.thead .headerbottom .left{
     width: 251px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    margin-right: 297px;
+    transform: translateX(-297px);
     padding-left: 8px;
     
 
     
    
  }
- .headerbottom .left  svg{
+.thead .headerbottom .left  svg{
   color: #cdced8;
    display: flex;
    cursor: pointer;
@@ -98,7 +128,8 @@
 
  }
 
- .headerbottom   .left  .button{
+.thead .headerbottom   .left  
+.button{
    height: 40px;
    font-family: sans-serif;
    border:1px solid #aeaebc;
@@ -112,27 +143,27 @@
  
 
  }
- .headerbottom   .left  .button svg{
+.thead .headerbottom   .left  .button svg{
    color: #cdced8;
    display:flex;
    padding-left: 4px;
    cursor: pointer;
 
  }
- .headerbottom  .left  span{
+.thead .headerbottom  .left  span{
    padding: 8px;
   
 
  }
- .headerbottom .left span svg{
+.thead .headerbottom .left span svg{
    color: #cdced8;
    display: flex;
    cursor: pointer;
    padding: 8px;
 
  }
+
  .menu{
-   width: 100%;
    height: 40px;
    display: flex;
    background-color:#fafafa;
@@ -141,159 +172,211 @@
    font-family: sans-serif;
    font-size: small;
    font-weight: 700;
-   border:1px solid lightgrey;
-   position: relative;
-   
+   border-bottom:1px solid lightgrey;
+
 
  }
  .menu  .rightmenu{
    display: flex;
- 
+   width: 75%;
   
  }
- .menu .rightmenu .menu--nav{
- width: 100%;
- height: 100%;
-
- }
- .menu .rightmenu .menu--nav  .menu--list{
-  height: 100%;
-  display: flex;
-  list-style-type: none;
-  gap: 10px;
-  align-items: center;
-
-
- }
- .menu .rightmenu  .menu--nav  .menu--list .menu--item{
-  width: auto;
-  line-height: 40px;
+ .menu .rightmenu {
+  width:100%;
+  height:40px;
   padding: 0 16px;
-  cursor: pointer;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu  .rightmenu  .menuself{
+  height: 100%;
+
+}
+.menu .rightmenu  .menuself .menu__list{
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item {
+  height: 100%;
   font-size: 14px;
   display: flex;
+  align-items: center;
+  position: relative;
 
-  
- }
- .menu .rightmenu  .menu--nav  .menu--list .menu--item:first-child{
-  font-weight: 700;
- 
- }
+}
 
 
- .menu .rightmenu .submenu{
-  width: 70%;
-  height: 440px;
-  background-color: #f0f0f1;
-  display: none;
+.menu .rightmenu .menuself .menu__list 
+.menu__item .menu__link{
+  padding: 0 16px;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: black;
+
+}
+
+.menu .rightmenu   .menuself .menu__list .menu__item:first-child .menu3{
+  width: 150%;
+  height: 575px;
   position: absolute;
-  top: 40px;
+  top: 100%;
   right: 0;
-  font-family: sans-serif;
-  color: #73747c;
-  cursor: pointer;
+  display: none;
+  z-index: 999;
+ background-color: #ffffff;
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child:hover .menu3{
+  display: block;
+
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav{
+  width:100%;
+  height: 100%;
   overflow: auto;
   direction: ltr;
 
-
-  
 }
-
-.menu  .rightmenu  .menu--nav .menu--list .menu--item:hover .submenu{
-  display: block;
- 
- 
-}
-
-
-.menu  .rightmenu .submenu  .submenu--list{
-  list-style-type: none;
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list{
   width: 100%;
+  height: 100%;
+  list-style: none;
   direction: rtl;
-
-
 }
-.menu  .rightmenu   .submenu  .submenu--list .submenu--item{
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item{
   width: 100%;
-  height: 40px;
-  text-decoration: none;
-  font-size: 14px;
-  color: #2b2b2b;
-  line-height: 40px;
-  padding: 0 12px;
-  align-items: center;
-  
+  height:50px;
+
 }
-.menu  .rightmenu  .submenu  .submenu--list .submenu--item:hover{
+.menu  .rightmenu  .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu3__link{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding-right: 16px;
+  text-decoration: none;
+  color: black;
+  background-color: #f1f1f1;
+  gap:10px;
+
+}
+
+
+.menu  .rightmenu    .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu3__link:hover{
   background-color: white;
   color: red;
-
 }
-.menu .rightmenu .submenu .submenusub{
-  width: 85%;
-  height: 100%;
-  background-color: #f57f17;
-  display: flex;
-  top: 0;
-  left: 0;
+
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu3__link:hover svg{
+  fill: red;
+}
+
+.menu   .rightmenu  .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4{
   position: absolute;
-  display: none;
-  justify-content: space-between;
+  top: 0;
+  right: 100%;
+  width: 60vw;
+  height: 575px;
   overflow: auto;
   direction: ltr;
-
-
+  display: none;
+  z-index: 999;
+  background-color: #ffffff;
 }
-
-.menu .rightmenu .submenu .submenusub .submenusubitems{
-  width: 20px;
-  height: 100%;
-  background-color: aqua;
-
- 
- 
-}
-
-.menu .rightmenu .submenu .submenu--list 
-.submenu--item:hover .submenusub{
-  display:flex;
- 
- 
-  
-}
-
-.menu .rightmenu .submenu .submenusub .submenusubitems 
-.submenusubitems--list{
-  width: 100%;
-  height: 100%;
-  list-style-type: none;
-  background-color: blueviolet;
-  direction: rtl;
- 
-    
-}
-.menu .rightmenu .submenu .submenusub .submenusubitems .submenusubitems--list 
-.submenusubitems--item{
-  width: 100%;
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item:hover .menu4{
   display: block;
-  right: 0;
-  padding-right: 24px;
-  background-color: yellow;
-  position: absolute;
-  margin-top: 10px;
-  font-weight: bold;
+
+}
+
+.menu   .rightmenu  .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .head{
+  width: 100%;
+  height: 50px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+
+
+}
+.menu  .rightmenu    .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .head a{
   text-decoration: none;
 
-  font-family: sans-serif;
-  font-size: 12px;
-  
-
 }
 
+.menu   .rightmenu  .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .menu4__nav{
+  width: 100%;
+  height: calc(100% - 50px);
+  direction: rtl;
 
 
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .menu4__nav .menu4__list{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding-right: 16px;
 
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .menu4__nav .menu4__list .menu4__item{
+  flex-basis: 25%;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .menu4__nav .menu4__list .menu4__link{
+  text-decoration: none;
+  color: #484646;
+}
+.menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav .menu3__list .menu3__item .menu4 .menu4__nav .menu4__list .menu4__link.title{
+  font-size: 20px;
+  color: black;
+}
+
+.menu .leftmenu{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.menu .leftmenu .cities{
+  height: 34px;
+  padding: 4px 12px;
+  background-color: #FEF6EF;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9999px;
+  gap: 8px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  
+}
+
+.menu .leftmenu .cities .icon{
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #f57f17;
+
+}
+.menu .leftmenu .cities .text{
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #f57f17;
+  cursor: pointer;
 
 
 

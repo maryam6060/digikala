@@ -9,6 +9,7 @@
   "author": "maryam khaligh",
   "license": "ISC",
   "dependencies": {
+    "hover": "^3.0.0-alpha.6",
     "live-server": "^1.2.2",
     "swiper": "^11.2.10"
   }

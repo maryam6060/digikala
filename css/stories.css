@@ -1,0 +1,94 @@
+.stories{
+    height: 139px;
+    padding-top: 16px;
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    
+}
+.stories  .swiper{
+    width: 100%;
+    height: 100%;
+   
+  }
+
+.stories .swiper-slide {
+    width: 100%;
+    height: 139px;
+    text-align: center;
+    
+  }
+  .stories .swiper-button-next::after{
+    color: #8d8d94;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    z-index: 5;
+    border: 1px solid #e0e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .stories .swiper-button-prev::after{
+    color: #8d8d94;
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    z-index: 5;
+    border: 1px solid #e0e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stories .swiper-slide:nth-of-type(1){
+    margin-right: 8px;
+
+  }
+
+.stories .swiper-slide .img {
+    width: 84px;
+    height: 84px;
+    margin-left: 24px;
+    cursor: pointer;
+    border: 1px outset red;
+    border-radius: 50%;
+    
+   
+  }
+  .stories .swiper-slide .img img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-fit: cover;
+    
+   
+   
+  }
+
+.stories .swiper-slide .text{
+    width: 84px;
+    height: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #23254e;
+    margin-top: 8px;
+    cursor: pointer;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    
+    
+   
+   
+}
+

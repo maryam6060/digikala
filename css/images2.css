@@ -1,0 +1,23 @@
+.images2{
+
+    height: 264px;
+    display: flex;
+    margin-right: 128px;
+    margin-left: 128px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    justify-content: space-between;
+  
+
+}
+.images2 img{
+    width: auto;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+
+    
+    
+}

@@ -1,0 +1,85 @@
+
+.brands{
+    height: 160px;
+    display: flex;
+    flex-flow:  row wrap;
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f1;
+    
+   
+  
+}
+.brands .first{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
+
+.brands .first .icon{
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e0e0e2;
+    border-left: 1px solid #e0e0e2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+    
+}
+.brands .first .icon img{
+    width:157px;
+    height: 20px;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+   
+
+   
+    
+}
+.brands .second{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    
+    
+}
+
+.brands .second .icon{
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e0e0e2;
+    border-left: 1px solid #e0e0e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+   
+    
+}
+.brands .second .icon img{
+    width:223px;
+    height: 20px;
+    display: flex;
+    flex-flow: wrap;
+ 
+    
+}

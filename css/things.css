@@ -1,0 +1,311 @@
+.things{
+    height: 451px;
+    display: flex;
+    margin-bottom: 16px;
+    margin-right: 128px;
+    margin-left: 128px;
+    position: relative;
+
+
+}
+.things .first{
+    width: 332px;
+    height: 449px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    border: 1px solid #e0e0e2;
+  
+   
+    
+    
+}
+.things  .first  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+ 
+
+    
+}
+.things .first   p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    margin-bottom: 8px;
+
+
+  
+}
+.things .first  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+    
+  
+
+  
+}
+.things .first  .img img{
+    width: 129px;
+    height: 129px;
+    border: 1px solid #e0e0e2;
+  
+  
+    
+
+  
+}
+.things .first span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+
+}
+.things .first span svg{
+    width: 18px;
+    height: 18px;
+    color: #007aff ;
+    align-items: center;
+
+}
+
+
+
+
+.things .second{
+    width: 332px;
+    height: 449px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-left: 1px solid #e0e0e2;
+    border-top: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+   
+}
+.things  .second  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+
+    
+}
+.things .second  p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.things .second  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+
+}
+
+.things .second  .img img{
+    width: 129px;
+    height: 129px;
+    border: 1px solid #e0e0e2;
+  
+}
+.things .second span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.things .second span svg{
+    color: #007aff;
+    align-items: center;
+
+}
+
+
+
+.things  .third{
+    width: 332px;
+    height: 449px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-left: 1px solid #e0e0e2;
+    border-top: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+    
+}
+.things  .third  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    flex-wrap:  nowrap;
+   
+    
+}
+.things .third  p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.things .third  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+    
+  
+}
+
+.things .third  .img img{
+    width: 129px;
+    height: 129px;
+    border: 1px solid #e0e0e2;
+  
+}
+.things .third span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.things .third span svg{
+    color: #007aff;
+    align-items: center;
+
+}
+
+
+
+.things  .forth{
+    width: 332px;
+    height: 449px;
+    border-top-left-radius:16px ;
+    border-bottom-left-radius: 16px;
+    padding: 8px 20px;
+    flex-wrap: nowrap;
+    border-left: 1px solid #e0e0e2;
+    border-top: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+
+  
+}
+.things  .forth  .title{
+    width: auto;
+    height: 33px;
+    color: #23254e;
+    display: flex;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+    flex-wrap:  nowrap;
+   
+    
+}
+.things .forth p{
+    width: 292px;
+    height: 23px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:  #81858b;
+    display: block;
+    margin-bottom: 8px;
+}
+.things .forth  .img{
+    width: 292px;
+    height: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8PX;
+    cursor: pointer;
+    
+}
+.things .forth  .img img{
+    width: 129px;
+    height: 129px;
+    border: 1px solid #e0e0e2;
+  
+}
+.things .forth span{
+    width: 292px;
+    height: 26px;
+    margin: 4px 0px 12px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#007aff ;
+    cursor: pointer;
+
+}
+.things .forth span svg{
+    color: #007aff;
+    align-items: center;
+
+}
+

@@ -1,0 +1,51 @@
+.informb{
+
+    height: 103px;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+
+}
+.informb .item{
+    width: 310px;
+    height: 103px;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+   
+
+}
+.informb .item  svg{
+    width: 56px;
+    height: 56px;
+}
+.informb .item .parag{
+    height: 23px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 400;
+    cursor: crosshair !important;
+
+}
+
+
+
+
+
+   
+  
+
+
+
+
+
+
+

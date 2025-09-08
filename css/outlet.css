@@ -1,0 +1,127 @@
+.outlet{
+    height: 812px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 128px;
+    margin-right: 128px;
+   
+   
+   
+}
+.outlet .selection{
+    height: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #e0e0e2;
+   
+  
+}
+.outlet .selection  .title{
+    width: 1336px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+.outlet .selection  .title svg{
+    width: 24px;
+    height: 24px;
+    font-size: 10px;
+    margin-left: 8px;
+}
+.outlet .selection .items{
+    width: 100%;
+    height: 736px;
+    display: flex;
+    position: absolute;
+    top: 76px;
+    right: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+   
+   
+}
+
+.outlet .selection .item{
+    width: 218px;
+    height: 242px;
+    border-bottom: 1px solid #f0f0f1;
+    border-left: 1px solid #f0f0f1;
+    padding-left: 8px;
+    padding-right: 8px;
+    overflow: hidden;
+    display: block;
+    padding: 12px 8px;
+  
+ 
+
+}
+.outlet .selection .item img{
+    width: 201px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    margin:  0 auto;
+    margin-bottom: 4px;
+}
+.outlet .selection .item .price{
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+    align-items: stretch;
+    font-size: 10px;
+}
+.outlet .selection .item .price  .discount{
+    width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.outlet .selection .item .price  .pris{
+    width: auto;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #3f4064;
+   justify-content: center;
+
+}
+.outlet .selection .item  .firstprice{ 
+    width: 201px;
+    height: 26px;
+    font-size:10px;
+    display: flex;
+    padding-left: 20px;
+    cursor: pointer;
+    flex-flow: row-reverse;
+    align-items: center;
+    color: #c0c2c5;
+
+   
+}
+
+
+
