@@ -26,10 +26,14 @@
 body{
   width: 1592px;
   height: 100wv;
+  background-color: #ffffff;
   
 }
 .thead{
   height: 128px;
+  position: sticky;
+  z-index: 999999999;
+  top: 0;
  
 }
 .thead .headertop{
@@ -234,12 +238,18 @@ body{
   display: flex;
   text-decoration: none;
   align-items: center;
-  color: black;
-
+  color: #484646;
+  
 }
+
+
 .menu .rightmenu .menuself .menu__list 
 .menu__item .menu__link svg{
   margin-left: 4px;
+}
+.menu .rightmenu   .menuself .menu__list .menu__item  .menu__link.cat{
+  color: #000000;
+ 
 }
 
 .menu .rightmenu   .menuself .menu__list .menu__item:first-child .menu3{
@@ -254,6 +264,7 @@ body{
 }
 .menu  .rightmenu   .menuself .menu__list .menu__item:first-child:hover .menu3{
   display: block;
+  
 
 }
 .menu  .rightmenu   .menuself .menu__list .menu__item:first-child .menu3 .menu3__nav{
@@ -281,7 +292,7 @@ body{
   align-items: center;
   padding-right: 16px;
   text-decoration: none;
-  color: black;
+  color: #000000;
   background-color: #f1f1f1;
   gap:10px;
 
